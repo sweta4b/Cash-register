@@ -1,0 +1,98 @@
+.container{
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+
+.header{
+    padding-top:2rem;
+}
+
+.description{
+    padding-bottom: 1rem;
+    margin: 1rem;
+    font-size: larger;
+    font-family: cursive;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-style: bold;
+    
+}
+
+button{
+    display: block;
+    margin:auto;
+   cursor: pointer;
+}
+
+input{
+    
+    border-radius: 0.5pc;
+    border-color: black;
+    padding: 0.5rem;
+}
+
+.table{
+    margin: auto;
+}
+
+th{
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top:2rem;
+   
+    font-size: larger;
+}
+
+tr{
+    display: table-row;
+    font-size: larger;
+}
+
+td{
+    
+    padding-bottom:1rem;
+    padding-right: 2rem;
+    font-size: larger;
+}
+
+caption{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#check-button{
+    border-radius: 0.5cm;
+    font-size: larger;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: black;
+    
+}
+
+#cash-given{
+    margin-bottom: 1rem;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
