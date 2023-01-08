@@ -1,21 +1,40 @@
-.container{
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/03/38/09/99/240_F_338099978_AI1TZ520242U90ucQDuBs9ZUUFW0GIHH.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: contain;
+    backdrop-filter: blur(3px); 
+}
+
+
+
+.container {
     text-align: center;
     align-items: center;
-   
+    width: 50%;
+    display: block;
+    margin: auto;
+
 }
 
 
 
-.header{
-    padding-top:2rem;
+.header {
+    padding-top: 2rem;
+    color:rgb(17, 2, 2);
+    text-shadow: 1px 1px ;
 }
 
-.description{
+.description {
     padding-bottom: 1rem;
     margin: 1rem;
     font-size: larger;
     font-family: cursive;
-    font-style: italic;
+    
+
 }
 
 label {
@@ -24,75 +43,79 @@ label {
     padding-top: 1rem;
     font-size: 1.5rem;
     font-style: bold;
-    
+    text-shadow: 1px 1px ;
+
 }
 
-button{
+button {
     display: block;
-    margin:auto;
-   cursor: pointer;
+    margin: auto;
+    cursor: pointer;
+    
 }
 
-input{
-    
+input {
+
     border-radius: 0.5pc;
     border-color: black;
     padding: 0.5rem;
+    border: none;
 }
 
-.table{
+.table {
     margin: auto;
 }
 
-th{
+th {
     padding-right: 2rem;
     padding-bottom: 1rem;
-    margin-top:2rem;
-   
     font-size: larger;
+    border: 1px solid black;
+    text-align: center;
 }
 
-tr{
+tr {
     display: table-row;
     font-size: larger;
 }
 
-td{
-    
-    padding-bottom:1rem;
+td {
+
+    padding-bottom: 1rem;
     padding-right: 2rem;
     font-size: larger;
+    border: 1px solid black;
+    margin: auto;
 }
 
-caption{
+caption {
     padding-bottom: 1rem;
     font-size: 2rem;
+    text-shadow: 1px 1px ;
 }
 
-#check-button{
+#check-button {
     border-radius: 0.5cm;
-    font-size: larger;
+    font-size: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-color: black;
+    width: 15%;
+    height: 5vh;
+
+}
+
+#cash-given {
+    margin-bottom: 1rem;
+   
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
     
 }
 
-#cash-given{
-    margin-bottom: 1rem;
+table {
+    border: 1px solid black;
 }
-
-h1{
-    display: block;
-    font-size: 2em;
-    color: cadetblue;
-}
-
-
-
-
-
-
-
-
-
