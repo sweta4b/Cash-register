@@ -8,6 +8,7 @@ const message=document.querySelector("#error");
 const notes=[2000, 500, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validation(){
+    errorMessage("")
     if(billAmount.value>0){
         if(cashGiven.value >= billAmount.value){
            const amountTobeReturned = cashGiven.value-billAmount.value;
@@ -16,7 +17,7 @@ checkButton.addEventListener("click", function validation(){
          errorMessage("cash given should be greater than bill amount");
         }
     }else{
-       errorMessage("Invalid")
+       errorMessage("")
     }
 });
 
